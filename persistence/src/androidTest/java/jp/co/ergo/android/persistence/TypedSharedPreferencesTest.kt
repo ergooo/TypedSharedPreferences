@@ -1,11 +1,11 @@
 package jp.co.ergo.android.persistence
 
 import androidx.preference.PreferenceManager
-import androidx.test.espresso.matcher.ViewMatchers.assertThat
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
 import junit.framework.TestCase
 import org.hamcrest.CoreMatchers.`is`
+import org.hamcrest.MatcherAssert.assertThat
 import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -43,7 +43,7 @@ class TypedSharedPreferencesTest : TestCase() {
         assertThat(sut.getInt(Keys.Age, 0), `is`(14))
         assertThat(sut.getLong(Keys.Birthday, 0), `is`(991753200))
         assertThat(sut.getFloat(Keys.SyncRate, 0f), `is`(41.3f))
-        assertThat(sut.getBoolean(Keys.HasIdCard, false), `is`(true))
+        assertThat(sut.getBoolean(Keys.HasIdCard, false), `is`(false))
         assertThat(sut.getStringSet(Keys.Friends, null), `is`(setOf("Rei", "Asuka")))
     }
 }
