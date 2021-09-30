@@ -1,3 +1,2 @@
 include ':typedsharedpreferences'
-include ':app'
 rootProject.name = "TypedSharedPreferences"
