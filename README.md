@@ -28,5 +28,5 @@ val typedSharedPreferences = TypedSharedPreferences(preferences)
 typedSharedPreferences.putString(Entry(Keys.Name, "Shinji"))
 ```
 
-If you specify a value other than String for `Keys.Name`, the compiler will tell you an error.  
+If you specify a value other than String for `Keys.Name`, the compiler will tell you an error.
 If you specify a key with a non-String parameter (such as `Keys.Age`) as the parameter for the `putString()` or `getString()`, compiler will tell you an error.
