@@ -5,7 +5,7 @@ By specifying type parameters for the keys you define, you can avoid typing mist
 ## Installation
 
 ```
-implementation 'io.github.ergooo:TypedSharedPreferences:0.0.1'
+implementation 'io.github.ergooo:TypedSharedPreferences:0.0.2'
 ```
 
 ## Code examples
