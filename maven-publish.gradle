@@ -13,7 +13,7 @@ afterEvaluate {
 
                 pom {
                     name = 'TypedSharedPreferences'
-                    description = 'A concise description of my library'
+                    description = 'By specifying type parameters for the keys you define, you can avoid typing mistakes when saving to SharedPreferences.'
                     url = 'https://github.com/ergooo/TypedSharedPreferences'
                     licenses {
                         license {
